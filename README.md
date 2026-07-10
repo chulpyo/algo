@@ -6,7 +6,7 @@
 `main.py`에 문제 경로를 주면 그 문제의 모든 예시에 대해 솔루션 함수를 자동 실행하고 결과를 비교한다.
 
 ```bash
-python main.py problems/<문제경로>.py
+uv run main.py problems/<문제경로>.py
 ```
 
 ## 상태
