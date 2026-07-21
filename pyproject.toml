@@ -1,0 +1,13 @@
+[project]
+name = "algorithm"
+version = "0.1.0"
+description = "파이썬 알고리즘 문제 풀이 저장소 + 예시 자동 실행 러너"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
